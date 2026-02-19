@@ -11,3 +11,9 @@ jobs:
         
       - name: İlk Otomatik Test
         run: echo "Sihir gerceklesti! Otomasyon robotu calisiyor."
+      
+      - name: Sahte Guvenlik Taramasi
+        run: |
+          echo "Sistem guvenlik aciklari taraniyor..."
+          sleep 3
+          echo "Tarama temiz! Hicbir acik bulunamadi."
