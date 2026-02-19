@@ -1,0 +1,13 @@
+name: Ilk DevOps Otomasyonum
+
+on: [push]
+
+jobs:
+  gorev_bir:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu Buluttan Cek
+        uses: actions/checkout@v3
+        
+      - name: İlk Otomatik Test
+        run: echo "Sihir gerceklesti! Otomasyon robotu calisiyor."
